@@ -1,0 +1,26 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A CLI for playing tic tac toe",
+  "main": "index.js",
+  "bin": {
+    "tic-tac-toe": "bin/tic-tac-toe"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CLI",
+    "tic-tac-toe"
+  ],
+  "author": "VidTDM",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "esm": "^3.2.25",
+    "inquirer": "^8.1.1"
+  }
+}
