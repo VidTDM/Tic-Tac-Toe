@@ -5,7 +5,7 @@ A CLI for playing tic tac toe
 ## Installation
 
 ```
-$ npm install -g tic-tac-toe
+$ npm install -g @vidtdm/tic-tac-toe
 ```
 
 ## How to play
