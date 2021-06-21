@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "A CLI for playing tic tac toe",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VidTDM/Tic-Tac-Toe.git"
+  },
+  "homepage": "https://github.com/VidTDM/Tic-Tac-Toe#readme",
   "bin": {
     "tic-tac-toe": "bin/tic-tac-toe"
   },
