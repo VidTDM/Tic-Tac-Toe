@@ -1,6 +1,6 @@
 {
   "name": "@vidtdm/tic-tac-toe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI for playing tic tac toe",
   "main": "index.js",
   "repository": {
