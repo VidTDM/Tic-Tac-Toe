@@ -44,13 +44,5 @@ export function winnerCheck(grid) {
     else if (grid[2] === grid[4] && grid[2] === grid[6]) {
         return grid[2]
     }
-    else
-        console.log('this line should never exicute')
     return
 }
-
-/*
-    0 1 2
-    3 4 5
-    6 7 8
-*/
