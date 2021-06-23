@@ -38,19 +38,9 @@ export function winnerCheck(grid) {
     // console.log(grid[0] === grid[4] && grid[0] === grid[8]);
     // console.log('d2', grid[2], grid[4], grid[6]);
     // console.log(grid[2] === grid[4] && grid[2] === grid[6]);
-    if (grid[0] === grid[4] && grid[0] === grid[8]) {
+    if (grid[0] === grid[4] && grid[0] === grid[8])
         return grid[0]
-    }
-    else if (grid[2] === grid[4] && grid[2] === grid[6]) {
+    else if (grid[2] === grid[4] && grid[2] === grid[6])
         return grid[2]
-    }
-    else
-        console.log('this line should never exicute')
     return
 }
-
-/*
-    0 1 2
-    3 4 5
-    6 7 8
-*/
